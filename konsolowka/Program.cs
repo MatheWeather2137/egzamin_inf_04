@@ -11,6 +11,13 @@ namespace konsolowka
         private static readonly string cyfry = "0123456789";
         private static readonly string znakiSpecjalne = " !@#$%^&*()_+";
 
+
+        //nazwa funkcji: GenerujHaslo
+        //opis funkcji: generuje losowe hasło o długości 12 znaków, składające się z małych liter, dużych liter, polskich znaków, cyfr i znaków specjalnych
+        //parametry: brak
+        //zwracany typ i opis: string - wygenerowane hasło
+        //autor: 00000000000
+
         public static string GenerujHaslo()
         {
             List<char> znakiHasla = new List<char>();
